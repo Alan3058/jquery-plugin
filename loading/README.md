@@ -3,7 +3,8 @@
 ## properties如下 
 this.$element:jquery元素。  
 this.settings:设置选项，包含jquery的ajax设置属性、page属性和其他属性，它的结构如下。  
-{ajax:{},page:{},registryEvent:"",container:""}  
+>  {ajax:{},page:{},registryEvent:"",container:""}  
+
 ajax：是jquery原生属性选项  
 page：是分页属性，默认值参考[page属性](#page属性)  
 registryEvent：目标元素触发的事件名，默认值为click  
@@ -25,4 +26,6 @@ getRegistryEvent：获取注册事件名称
  
 ## 使用方法
 必须引用jquery插件  
-$("#demo").loading({ajax:{url:'url'},page:{pageNum:0,pageSize:5},registryEvent:'click',container:'#container',bootLoad:true})
+`$("#demo").loading({ajax:{url:'url'},page:{pageNum:0,pageSize:5},registryEvent:'click',container:'#container',bootLoad:true})`  
+
+
