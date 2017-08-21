@@ -4,7 +4,7 @@
 this.$element:jquery元素。  
 this.settings:设置选项，包含jquery的ajax设置属性、page属性和其他属性，它的结构如下。  
 {ajax:{},page:{},registryEvent:"",container:""}  
-ajax：是jquery原生属性选项[page属性](page属性)。  
+ajax：是jquery原生属性选项[page属性](#page属性)。  
 page：是分页属性，默认值参考page属性  
 registryEvent：目标元素触发的事件名，默认值为click  
 container：存放数据的容器，默认为''  
