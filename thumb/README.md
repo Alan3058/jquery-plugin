@@ -21,8 +21,8 @@ afterPush：推送数据后触发
  
 ## 使用方法
 必须引用jquery插件和js-cookie插件  
-$(".thumb").thumbthumb({pullUrl:"pullUrl",pushUpUrl:"upUrl",pushDownUrl:"downUrl"});
- 
-规约  
+>  $(".thumb").thumbthumb({pullUrl:"pullUrl",pushUpUrl:"upUrl",pushDownUrl:"downUrl"});  
+
+**规约**  
 必须使用一个父级标签包含一个置顶和踩一下标签，其中置顶标签class必须为thumbUp，踩一下标签class为thumbDown。  
 
