@@ -26,6 +26,6 @@ getRegistryEvent：获取注册事件名称
  
 ## 使用方法
 必须引用jquery插件  
-`$("#demo").loading({ajax:{url:'url'},page:{pageNum:0,pageSize:5},registryEvent:'click',container:'#container',bootLoad:true})`  
+>  $("#demo").loading({ajax:{url:'url'},page:{pageNum:0,pageSize:5},registryEvent:'click',container:'#container',bootLoad:true})   
 
 
