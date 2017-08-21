@@ -3,7 +3,8 @@
 ## properties如下 
 this.$element:jquery元素。  
 this.settings:设置选项，一些自定义属性，它的数据结构如下。  
-    {pullMethod:'',pullUrl:'',pullParams:'',pushMethod:'',pushUpUrl : "",pushDownUrl : "",pushParams : {}}  
+>  {pullMethod:'',pullUrl:'',pullParams:'',pushMethod:'',pushUpUrl : "",pushDownUrl : "",pushParams : {}}    
+
 pullMethod：拉取置顶和踩一下的Ajax方法，只支持get和post,默认值get  
 pullUrl：拉取置顶和踩一下的Ajax url，默认值''  
 pullParams：拉取置顶和踩一下的Ajax 参数，默认值为{}  
