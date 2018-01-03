@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>首页</title>
+</head>
+<body>
+	<div id="container" class="container  main-container">
+		<div class="col-sm-12">
+			<form class="form-horizontal">
+				<input type="text" class="form-control" name="input"/>
+				<input type="text" class="form-control" name="input" />
+				<select name="select" id="select" class="span4">
+				<option value="1">value = 1</option>
+				<option value="2">value = 2</option>
+				<option value="3">value = 3</option>
+				<option value="4">value = 4</option>
+				<option value="5">value = 5</option>
+				</select>
+				<select name="multiselect" id="multiselect" class="span4" multiple="multiple" size="4">
+				<option value="1">value = 1</option>
+				<option value="2">value = 2</option>
+				<option value="3">value = 3</option>
+				<option value="4">value = 4</option>
+				<option value="5">value = 5</option>
+				</select>
+				<input name="checkbox" id="checkbox" value="2" type="checkbox">
+							<span>value = 1</span>
+				<input name="checkbox" id="checkbox" value="2" type="checkbox">
+							<span>value = 1</span>
+				<input name="radio" value="on" type="radio">on	
+				<input name="radio" value="off" type="radio">off	
+			</form>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="jquery.formutil.js"></script>
+	<script>
+	var data = {"input":"inputvalue","select":"2","multiselect":[2,3],"checkbox":"2","radio":"off"};
+	$("body").fill();
+	
+	console.log($("form").serializeObject());
+	
+	</script>
+</body>
+</html>
