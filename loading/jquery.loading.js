@@ -1,6 +1,7 @@
 /**
  * 加载更多功能插件
- *
+ * @autor alan
+ * @version 1.0.0
  * @param $
  * @param undefined
  */
